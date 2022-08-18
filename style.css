@@ -1,0 +1,24 @@
+/*css do main*/
+body {
+    background: url(./assets/fundonuvem.jpeg);
+    min-width: 100vh;
+}
+
+.fundonuvem {
+    height: 58em;
+    width: 100%;
+   
+}
+
+.main {
+    display: inline-block;
+    background-color: red;
+}
+
+.pokedex {
+    position: absolute;
+    left: 39%;
+    bottom: 8em;
+   
+    
+}
