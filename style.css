@@ -22,3 +22,50 @@ body {
    
     
 }
+
+/*Css dos botões */
+
+#nomepokemon {
+    position: absolute;
+    left: 41%;
+    bottom: 22em;
+    width: 15%;
+    border: solid 2px #000;
+    box-shadow: -2px 3px 0 #CCC, -4px 6px 0 #000;
+    border-radius: 0.5em;
+    padding: 1em;
+    font-family: 'Oxanium', cursive;;
+}
+
+.botoes {
+    width: 30%;
+    position: absolute;
+    left: 40%;
+    bottom: 11em;
+}
+ 
+#botao1 {
+    width: 25%;
+    padding: 2%;
+    border: 2px solid #000;
+    background: #3b3939;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    margin: 0 0 0 1em;
+    FONT-WEIGHT: 200;
+    font-family: 'Oxanium', cursive;
+}
+
+#botao2 {
+    width: 25%;
+    padding: 2%;
+    border: 2px solid #000;
+    background: #3b3939;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    margin: 0 0 0 1em;
+    FONT-WEIGHT: 200;
+    font-family: 'Oxanium', cursive;
+}
