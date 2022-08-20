@@ -1,6 +1,6 @@
 /*css do main*/
 body {
-    background: url(./assets/fundonuvem.jpeg);
+    background: url(../assets/fundonuvem.jpeg);
     min-width: 100vh;
 }
 
@@ -24,6 +24,15 @@ body {
 }
 
 /*Css dos botões */
+.dadopokemon {
+    position: absolute;
+    top: 22em;
+    left: 47%;
+    font-family: 'Oxanium', cursive;
+    font-size: 1.5em;
+    color: #000
+}
+
 
 #nomepokemon {
     position: absolute;
@@ -34,7 +43,7 @@ body {
     box-shadow: -2px 3px 0 #CCC, -4px 6px 0 #000;
     border-radius: 0.5em;
     padding: 1em;
-    font-family: 'Oxanium', cursive;;
+    font-family: 'Oxanium', cursive;
 }
 
 .botoes {
@@ -57,6 +66,10 @@ body {
     font-family: 'Oxanium', cursive;
 }
 
+#botao1:active {
+    box-shadow: none;
+}
+
 #botao2 {
     width: 25%;
     padding: 2%;
@@ -68,4 +81,9 @@ body {
     margin: 0 0 0 1em;
     FONT-WEIGHT: 200;
     font-family: 'Oxanium', cursive;
+}
+
+#botao2:active {
+    box-shadow: none;
+    
 }
