@@ -12,22 +12,22 @@ Esse projeto tem como por propósito os seguintes objetivos:
 # Gif do resultado
 
 <div align="center">
-<img align="center" alt="Design do site" height="300" width="500" src="./design/pokedex.gif">
+<img align="center" alt="Design do site" height="300" width="500" src="./Design/pokedex.gif">
 
 
 <h2 align="centre">Divisões do projeto</h2>
 
 Como o projeto era muito desafiador para meus conhecimentos no começo, resolvi dividir o projeto em três etapas e organizar para fluir da maneira como queria, as etapas foram as seguintes:
 
-# Primeira etapa
+### Primeira etapa
 Construir a estrutura HTML.
 Construir Estrutura CSS
 
-# Segunda etapa
+### Segunda etapa
 Construir o JavaScript
 Implementação de uma API na qual nunca trabalhei antes.
 
-# Terceria etapa
+### Terceria etapa
 Utilizar o CSS para uma melhor experiencia do usuário.
 
 
