@@ -12,8 +12,8 @@ Esse projeto tem como por propósito os seguintes objetivos:
 # Gif do resultado
 
 <div align="center">
-<img align="center" alt="Design do site" height="300" width="500" src="./Design/pokedex.gif">
-
+<img align="center" alt="Design do site" height="400" width="500" src="./Design/pokedex.gif">
+</div
 
 <h2 align="centre">Divisões do projeto</h2>
 
