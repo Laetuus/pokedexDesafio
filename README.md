@@ -1,6 +1,6 @@
 <h1 align="centre">Desafio Pokedex</h1>
 
-Esse desafio me desafiei a utilizar uma estrutura de HTML e CSS simples porém funcional, e principalmente uma estrutura JavaScript com a minha primeira integração com API, utilizei uma API conhecida pelos desenvolvedores (api em questão https://pokeapi.co ) a PokeApi, meu desafio foi resgatar da API por meio do JavaScript o **ID (Seu número) do pokemon e seu Nome** e tornando os botões funcionais para que o usuario tenha uma maior precisão ao pesquisar pelos pokemons, o projeto foi iniciado no dia **16/08/2022** e finalizado **Sete dias depois** no dia **22/08/2022**.
+Neste projeto me desafiei a utilizar uma estrutura de HTML e CSS simples porém funcional, e principalmente uma estrutura JavaScript com a minha primeira integração com API, utilizei uma API conhecida pelos desenvolvedores (api em questão https://pokeapi.co ) a PokeApi, meu desafio foi resgatar da API por meio do JavaScript o **ID (Seu número) do pokemon e seu Nome** e tornando os botões funcionais para que o usuario tenha uma maior precisão ao pesquisar pelos pokemons, o projeto foi iniciado no dia **16/08/2022** e finalizado **Sete dias depois** no dia **22/08/2022**.
 
 Esse projeto tem como por propósito os seguintes objetivos:
 
