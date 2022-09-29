@@ -2,6 +2,9 @@
 
 Neste projeto me desafiei a utilizar uma estrutura de HTML e CSS simples porém funcional, e principalmente uma estrutura JavaScript com a minha primeira integração com API, utilizei uma API conhecida pelos desenvolvedores (api em questão https://pokeapi.co ) a PokeApi, meu desafio foi resgatar da API por meio do JavaScript o **ID (Seu número) do pokemon e seu Nome** e tornando os botões funcionais para que o usuario tenha uma maior precisão ao pesquisar pelos pokemons, o projeto foi iniciado no dia **16/08/2022** e finalizado **Sete dias depois** no dia **22/08/2022**.
 
+<h1 align="centre">Atualização da Pokedex</h1>
+Estou retomando esse projeto com o intuito de aplicar conhecimentos de Jquery para alterar a estilização do site conforme o usuario pesquisa pelos pokemons, fazendo com que a imagem de fundo mude de acordo com o elemento do Pokemon, para o dia 29/09 estou atras de imagens e buscando conhecimento sobre Jquery para a implementação das novas interações que pretendo fazer.
+
 Esse projeto tem como por propósito os seguintes objetivos:
 
 * - Criação de páginas.
