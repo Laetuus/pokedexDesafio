@@ -2,6 +2,7 @@
 body {
     background: url(../imagens/fundonuvem.jpeg);
     min-width: 100vh;
+    overflow: hidden;
 }
 
 .fundonuvem {

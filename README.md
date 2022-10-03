@@ -5,6 +5,9 @@ Neste projeto me desafiei a utilizar uma estrutura de HTML e CSS simples porém 
 <h1 align="centre">Atualização da Pokedex</h1>
 Estou retomando esse projeto com o intuito de aplicar conhecimentos de Jquery para alterar a estilização do site conforme o usuario pesquisa pelos pokemons, fazendo com que a imagem de fundo mude de acordo com o elemento do Pokemon, para o dia 29/09 estou atras de imagens e buscando conhecimento sobre Jquery para a implementação das novas interações que pretendo fazer.
 
+No dia 02/10 implementei a resposta da api para que ela mostre o tipo do pokemon, entretanto estou analisando a possibilidade de mudar 
+a maneira como será verificado o resultado da api para a mudança do background.
+
 Esse projeto tem como por propósito os seguintes objetivos:
 
 * - Criação de páginas.

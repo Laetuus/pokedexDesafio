@@ -24,6 +24,7 @@
     <h1 class="dadopokemon">
         <span class="numeropokemon"></span> -
         <span class="nomepokemon"></span>
+        <span class="tipopokemon"></span>
     </h1>
     
     <form class="form">
@@ -39,7 +40,21 @@
    
 <!-- Script do JQuery abaixo -->
 <script>
- $('body').fadeOut("2000").fadeIn("2000")
+var imageIce = './assets/imagens/pokemon-ice.jpg';
+var imageFire = './assets/imagens/pokemon-fire.jpg';
+var imageLight = './assets/imagens/pokemon-light.jpg';
+
+
+
+
+
+$(document).on('click', 'tipopokemon', function() {
+    $(`<img src='${imageLight}'>`).appendTo('body');
+});
+
+$(document).on('click', '#botao2', function() {
+    $(`<img src='${imageIce}'>`).appendTo('body');
+});
     
 </script>
 </body>
