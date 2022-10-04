@@ -12,6 +12,7 @@ const botao2 = document.querySelector('#botao2');
 var imageIce = './assets/imagens/pokemon-ice.jpg';
 var imageFire = './assets/imagens/pokemon-fire.jpg';
 var imageLight = './assets/imagens/pokemon-light.jpg';
+var imageDefault = './assets/imagens/fundonuvem.jpeg';
 
 let searchPokemon = 1;
 
@@ -48,22 +49,41 @@ const renderPokemon = async (pokemon) => {
            corpo.style.background = `url(${imageFire})`;
             
         };
-        if(pokemonType.innerHTML == "electric") {
+        if(pokemonType.innerHTML == "electric" || pokemonType.innerHTML == "bug" ){
             var corpo = window.document.body
-           corpo.style.background = `url(${imageLight})`;
-            
-        };
-       
+            corpo.style.background = `url(${imageLight})`
+        }
+
+        if(pokemonType.innerHTML == "normal" || 
+        pokemonType.innerHTML == "flying" ||
+        pokemonType.innerHTML == "poison" ||
+        pokemonType.innerHTML == "ground" ||
+        pokemonType.innerHTML == "rock" ||
+        pokemonType.innerHTML == "bug" ||
+        pokemonType.innerHTML == "ghost" ||
+        pokemonType.innerHTML == "steel"  ||
+        pokemonType.innerHTML == "special"  ||
+        pokemonType.innerHTML == "water"  ||
+        pokemonType.innerHTML == "grass" ||
+        pokemonType.innerHTML == "psychic" ||
+        pokemonType.innerHTML == "dragon" ||
+        pokemonType.innerHTML == "dark"  ||
+        pokemonType.innerHTML == "fairy" ) {
+            var corpo = window.document.body
+            corpo.style.background = `url(${imageDefault})`
+        }
+
+        
+
         input.value = '';
         searchPokemon = data.id;
          ;
     } else {
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'Not Found o(╥﹏╥)o';
-        pokemonNumber.innerHTML = '';
+         
     }
 
-    
 }
 
 form.addEventListener('submit', (event) => {
@@ -84,3 +104,7 @@ botao2.addEventListener('click', () => {
 });
 
 renderPokemon(searchPokemon);
+
+/* (pokemonType.innerHTML == "normal" || "flying" || "poison" || "ground" || "rock" || "bug" || "ghost" ||
+"steel" || "special" || "water" || "grass" ||
+"psychic" || "dragon" || "dark" || "fairy") */
