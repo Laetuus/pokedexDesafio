@@ -8,6 +8,8 @@ Estou retomando esse projeto com o intuito de aplicar conhecimentos de Jquery pa
 No dia 02/10 implementei a resposta da api para que ela mostre o tipo do pokemon, entretanto estou analisando a possibilidade de mudar 
 a maneira como será verificado o resultado da api para a mudança do background.
 
+No dia 03/10 decidi fazer a mudança utilizando JavaScript por ter melhor usabilidade para a o projeto.
+
 Esse projeto tem como por propósito os seguintes objetivos:
 
 * - Criação de páginas.

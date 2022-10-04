@@ -8,6 +8,11 @@ const input = document.querySelector('#nomepokemon')
 const botao1 = document.querySelector('#botao1');
 const botao2 = document.querySelector('#botao2');
 
+// Imagens de fundo
+var imageIce = './assets/imagens/pokemon-ice.jpg';
+var imageFire = './assets/imagens/pokemon-fire.jpg';
+var imageLight = './assets/imagens/pokemon-light.jpg';
+
 let searchPokemon = 1;
 
 const fetchPokemon = async (pokemon) => {
@@ -32,13 +37,33 @@ const renderPokemon = async (pokemon) => {
         pokemonNumber.innerHTML = data.id;
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         pokemonType.innerHTML = data['types']['0']['type']['name'];
+        if(pokemonType.innerHTML == "ice") {
+           var corpo = window.document.body
+           corpo.style.background = `url(${imageIce})`;
+
+           
+        };
+        if(pokemonType.innerHTML == "fire") {
+            var corpo = window.document.body
+           corpo.style.background = `url(${imageFire})`;
+            
+        };
+        if(pokemonType.innerHTML == "electric") {
+            var corpo = window.document.body
+           corpo.style.background = `url(${imageLight})`;
+            
+        };
+       
         input.value = '';
         searchPokemon = data.id;
+         ;
     } else {
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'Not Found o(╥﹏╥)o';
         pokemonNumber.innerHTML = '';
     }
+
+    
 }
 
 form.addEventListener('submit', (event) => {
