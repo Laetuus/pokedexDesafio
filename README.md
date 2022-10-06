@@ -23,6 +23,12 @@ Esse projeto tem como por propósito os seguintes objetivos:
 <img align="center" alt="Design do site" height="400" width="500" src="./Design/pokedex.gif">
 </div
 
+## Gif da atualização
+
+<div align="center">
+<img align="center" alt="Design do site" height="400" width="500" src="./Design/design-att.gif">
+</div
+
 <h2 align="centre">Divisões do projeto</h2>
 
 Como o projeto era muito desafiador para meus conhecimentos no começo, resolvi dividir o projeto em três etapas e organizar para fluir da maneira como queria, as etapas foram as seguintes:
