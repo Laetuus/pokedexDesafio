@@ -29,9 +29,13 @@ Esse projeto tem como por propósito os seguintes objetivos:
 <img align="center" alt="Design do site" height="400" width="550" src="./assets/Design/design-att.gif">
 </div
 
-<h2 align="centre">Divisões do projeto</h2>
+**O gif da atualização está lendo por conta da ferramenta usada para a conversão.**
+
+<h1 align="centre">Divisões do projeto</h1>
 
 Como o projeto era muito desafiador para meus conhecimentos no começo, resolvi dividir o projeto em três etapas e organizar para fluir da maneira como queria, as etapas foram as seguintes:
+
+**Essas etapas foram feitas para a construção inicial do projeto.**
 
 ### Primeira etapa
 Construir a estrutura HTML.
