@@ -26,7 +26,7 @@ Esse projeto tem como por propósito os seguintes objetivos:
 ## Gif da atualização
 
 <div align="center">
-<img align="center" alt="Design do site" height="400" width="500" src="./assets/Design/design-att.gif">
+<img align="center" alt="Design do site" height="400" width="550" src="./assets/Design/design-att.gif">
 </div
 
 <h2 align="centre">Divisões do projeto</h2>
